@@ -5,34 +5,65 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <title>Hike— Building a New Social Future</title>
   <link rel="stylesheet" href="index.css">
-  <link rel="shortcut icon" href="title.jpg">
+  <link rel="shortcut icon" href="assets/title.jpg">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+  />
 
 </head>
 
 <body>
 <!-- As a link -->
-<nav class="navbar navbar-light bg-white">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-          <img src="assets/hike_logo.png"  alt="hike" style="max-width: 90px; width: 90px;">
-    </a>
-      <span class="mx-5" style="color:black;font-size:18px;font-family:'Roboto';">
-        <a href="#" style="text-decoration: none; font-weight: bold;" class="text-dark mx-3 text-weight-bold" >Home</a>
-        <a href="#" style="text-decoration: none; font-weight: bold;" class="text-dark mx-3 text-weight-bold" >Work @ Hike</a>
-        <a href="#" style="text-decoration: none; font-weight: bold;" class="text-dark mx-3 text-weight-bold" >AI @ Hike</a>
-        <a href="#" style="text-decoration: none; font-weight: bold;" class="text-dark mx-3 text-weight-bold" >Blogs</a>
-      </span>
-    </div>
-  </nav>
+<nav class="navbar navbar-expand-sm bg-white">
+  <div class="container-fluid my-1">
+    <img class="mx-4" src="assets/hike_logo.png"  alt="hike" style="max-width: 90px; width: 90px;">
+      
+      <button
+      class="navbar-toggler"
+      data-toggle="collapse"
+      data-target="#collapseNav"
+      >
+          <span class="fas fa-bars text-dark"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id ="collapseNav">
+          <div class="navbar-nav">
+              <a style="font-size: 18px;" href="#" class="nav-txt nav-item nav-link font-weight-bold mx-2 h6">
+                Home
+              </a>
+              <a style="font-size: 18px;" href="#" class="nav-txt nav-item nav-link font-weight-bold mx-2 h6">
+                Work @ Hike
+              </a>
+              <a style="font-size: 18px;" href="#" class="nav-txt nav-item nav-link font-weight-bold mx-2 h6">
+                AI @ Hike
+              </a>
+              <a style="font-size: 18px;" href="#" class="nav-txt nav-item nav-link font-weight-bold mx-2 h6">
+                Blogs
+              </a>
+              
+          </div>
+      </div>
+      
+
+
+  </div>
+
+
+
+</nav>
+
+
+
+
+
+
 
   <!-- body -->
 
-  <div class="container-fluid">
+  <div class="container-fluid py-5">
       <div class="align-items-center">
          <center> 
              <span><img src="assets/mid_logo.png"/></span>
-             <div class=" container-fluid my-5 font-weight-bold">
-                 <a><h1>Building a New Social Future</h1></a>
+             <div class="container-fluid my-5 font-weight-bold">
+                 <a><h1 style="font-size: 45px;">Building a New Social Future</h1></a>
              </div>
 
              <div class="container-fluid my-5 ">
@@ -40,9 +71,10 @@
             </div>
             
             
-            <a class="object" href="#text-field-1"><img src="assets/icon.png"/></a>
+           
             
         </center>
+        <a style="margin-left: 47%;" class="object" href="#text-field-1"><img src="assets/icon.png"/></a>
         <br><br><br>
 
       </div>
@@ -58,23 +90,27 @@
         
       </div>
         <br><br><br><br><br><br><br><br><br><br>
-     <span style="margin-top: 120px;"> <a href="#text-field-2"><img src="assets/icon.png"/></a></span>
+      <a href="#text-field-2"><img src="assets/icon.png"/></a>
        
     </center>
+    
   </div>
 
   <!--text-->
 
   <!--Paragraph-->
+  <div id="text-field-2" style="height: 300px;"></div>
+
     <div class="container-fluid">
-    <div id="text-field-2" class="container-fluid px-5">
+    <div  class="container-fluid ">
         <div class="row mx-5">
+          <div class="col-12 col-md-1"></div>
           <div class="col-12 col-md-4 text-dark">
-            <hr style="height:7px; color: black;">
-            <p style="font-size: 25px;">A New Social Future</p>
+            <hr style="height:4px; color: rgb(0, 0, 0);">
+            <p style="font-size: 25px; font-weight: bold;">A New Social Future</p>
           </div>
           
-          <div style="font-size: 25px;" class=" col-12 col-md-8">
+          <div style="font-size: 25px; font-weight:normal; font-family: 'Roboto',Arial,sans-serif;" class=" col-12 col-md-6">
             How is it that in a world that's evolving so quickly that social products still feel the same? Strangely enough, we're still using products that were invented in the 2G era. There seems to be an emptiness with the current experience and today's products are built to force humanity to be superficial.
 <br><br>
 We'd like to change that.
@@ -86,6 +122,7 @@ Social products should be joyful. They should be built around people and not the
 We're building out this new social future.
 <br><br>
           </div>
+          <div class="col-12 col-md-1"></div>
         </div>
 
     </div>
@@ -95,15 +132,15 @@ We're building out this new social future.
 
   </div>
 
-<!-- Updates -->
+<!-- Updates
 
 <div class="container" style="margin: 35px; height: 800px;width: 100%;">
 
   <center><h1>Latest Updates</h1></center>
   <div class="row py-5">
-      <div class="align-items-center container-fluid col-12 col-md-6">
+      <div class="align-items-center container-fluid col-6 col-md-4">
               <a href="/">
-                <img class="py-3" src="assets/vibe.png" style="height:425px;width:700px">
+                <img class="py-3" src="assets/vibe.png" height:425px width:700px>
                 <center>
                   <a href="#" style="text-decoration: none; font-weight: bold;" class="h4 text-dark mx-3 text-weight-bold" >Introducing Vibe By Hike</a>
                   <br>
@@ -118,7 +155,7 @@ We're building out this new social future.
               </a>
       </div>
       
-      <div class="container-fluid col-12 col-md-6 ">
+      <div class="container-fluid col-6 col-md-4 ">
         <a href="/">
           <img class="py-3" src="assets/rush.png" style="height:425px;width:700px">
           <center>
@@ -137,17 +174,59 @@ We're building out this new social future.
   </div>
 
 </div>
+ -->
 
+ <!--Cards-->
+<div class="container-fluid">
+  <center><h1 class="py-5" style="font-weight: 500;">Latest Updates</h1></center>
+    <div class="row align-items-center" style="align-items: center;">
+      <div class="col-12 col-md-2"></div>
+      <div class="col-12 col-md-4">
+          
+        <img src="assets/vibe.png" height=300px class="rounded mx-auto d-block mx-5" alt="...">
+        <br><br>
+        <center>
+          <a href="#" style="text-decoration: none; font-weight: bold;" class="h4 text-dark mx-3 text-weight-bold" >Introducing Rush By Hike</a>
+                
+          <br>
+          <br>
+          <h7 class="text-decoration-none" style="font-size: 13px; color: black;">Put your skill to test and win real money</h7>
+          <br>
+          <br>
+          <div  class="btn btn-outline-dark btn-dark text-white">Know more</div>
+        </center>
+        
+      </div>
+      
+        
+        <div class="col-12 col-md-4 mx-5" style="margin: 60px;">
+          
+          <img src="assets/rush.png" height=300px class="rounded mx-auto d-block" alt="...">
+          <br><br>
+          <center>
+            <a href="#" style="text-decoration: none; font-weight: bold;" class="h4 text-dark mx-3 text-weight-bold" >Introducing Rush By Hike</a>
+                  
+            <br>
+            <br>
+            <h7 class="text-decoration-none" style="font-size: 13px; color: black;">Put your skill to test and win real money</h7>
+            <br>
+            <br>
+            <div  class="btn btn-outline-dark btn-dark text-white">Know more</div>
+          </center>
+          
+        </div>
+    </div>
+</div>
 
 
   <!--join us-->
-  <div class="text-center" style=" padding-top:35px ;background-color:#00BFFF; height: 500px;width:100%;" class="container-fluid">
+  <div class="text-center" style=" padding-top:35px ;background-color:#48c2eb; height: 500px;width:100%;" class="container-fluid">
     <center>
-      <div class="my-6">  <h1 class="font-weigth-bold display-1 text-white ">Come join us</h1></div>
+      <div class="my-6">  <h1 class="font-weigth-bold display-1 text-white " style=" font-family: 'Roboto',Arial,sans-serif;">Come join us</h1></div>
       <br>
-      <p style="font-size :25px; " class="text-white text-info my-3">It's the team that counts.</p>
+      <p style="font-size :25px; font-family: 'Roboto',Arial,sans-serif; " class="text-white text-info my-3">It's the team that counts.</p>
         <br><br>
-        <p style="font-size :25px; "  class="text-white text-info">The team we build, is the company we build.</p>
+        <p style="font-size :25px; font-family: 'Roboto',Arial,sans-serif;"  class="text-white text-info">The team we build, is the company we build.</p>
     
         <button style="border-color: black; background-color: white;color:black; padding-top: 15px;padding-bottom: 15px; padding-left: 35px; padding-right: 35px;" class="btn btn-outline-light my-5">Join Us</button>
     
@@ -156,7 +235,7 @@ We're building out this new social future.
   </div>
 
 <!--card-->
-
+<!-- 
 <center>
     <h1 style="padding-top: 40px; font-size: 45px;">Highlights from our Blog</h1><br>
     <p style="font-size: 25px;">Catch up on some of our latest work</p><br><br><br>
@@ -208,29 +287,55 @@ We're building out this new social future.
 
 
 </center>
+-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-md-4"></div>
 
+    </div>
+
+
+</div>
 
 <!---Above Footer-->
-<div class="container-fluid" style="height: 800px; width: 100%; padding:50px ;">
+<div class="container-fluid" style="height: 800px; width: 100%; padding-top:100px ;">
   <center>
-   <div style="margin-top: 300px;">
+   <div style="margin-top: 200px;">
     <div class="container-fluid text-dark h1 my-4" style="font-size: 40px;">
       Hike Digest
     </div> 
 
-    <div class="container-fluid text-dark my-5" style="font-size: 20px;">
-      Subscribe to our monthly newsletter for awesome updates
+    <div class="container-fluid text-dark" style="font-size: 20px;">
+      Subscribe to our monthly newsletter for awesome
     </div> 
-
+    <div class="container-fluid text-dark text-center" style="font-size: 20px;">
+      updates
+    </div> 
+    
 
    </div>
+   <!--
   <div style="margin-top: 120px;"> 
-          <input style="border-color: black; margin: 5px; width: 300px; height: 60px; padding: 10px;" type="text" placeholder="First Name">
+      <input style="border-color: black; margin: 5px; width: 300px; height: 60px; padding: 10px;" type="text" placeholder="First Name">
     <input  style="border-color: black; margin: 5px; width: 300px; height: 60px; padding: 10px;" type="password" placeholder="Last Name">
     <input style="border-color: black; margin: 5px; width: 300px; height:60px; padding: 10px;" type="email" placeholder="Email">
     <button style="border-color: black; margin: 5px; width: 200px; height: 60px;  background-color: black;" class="btn btn-outline-dark text-white">Subscribe</button>
   </div>
-
+-->
+<div class="row mx-3"  style="padding-top:150px ;">
+  <div class="col-12 col-md-3">
+    <input style="border-color: black; margin: 5px; width: 300px; height: 60px; padding: 10px;" type="text" placeholder="First Name">
+  </div>
+  <div class="col-12 col-md-3">
+  <input  style="border-color: black; margin: 5px; width: 300px; height: 60px; padding: 10px;" type="password" placeholder="Last Name">
+  </div>
+  <div class="col-12 col-md-3">
+  <input style="border-color: black; margin: 5px; width: 300px; height:60px; padding: 10px;" type="email" placeholder="Email">
+</div>
+  <div class="col-12 col-md-3">
+  <button style="border-color: black; margin:3px; width: 200px; height: 60px;  background-color: black;" class="btn btn-outline-dark text-white">Subscribe</button>
+</div>
+</div>
   </center>
 
 
@@ -247,7 +352,7 @@ We're building out this new social future.
 
 
 
-
+<!--
 
 <footer class="text-center text-info" style="background-color: #1f1e1e;">
         <div class="container-fluid">
@@ -256,6 +361,7 @@ We're building out this new social future.
             <div class="col-12 col-md-3 py-3">
              <span><img src="assets/mid_logo.png" height="150px" width="120px"/></span>
               <br>
+              
               <div class="row">
                 <div class="col-md-3">
                   <img height="35px" src="assets/twitter.png" alt="twitter_logo">
@@ -266,6 +372,9 @@ We're building out this new social future.
                 <div class="col-md-3">
                   <img  height="35px" src="assets/linkedin.png" alt="linked_logo">
                 </div>
+                  
+                </div>
+                
               </div>
               <div style="align-items: center;" class="row text-white align-items-lg-center">
                 © 2021 Hike Pvt Ltd
@@ -302,11 +411,65 @@ We're building out this new social future.
 
   
 </footer>
+
+
+
+-->
+<footer class="text-center text-info" style="background-color: #1f1e1e;">
+  <div class="container-fluid py-3">
+      <div class="row py-5">
+        <div class="col-12 col-md-1">
+
+        </div>
+        <div class="col-12 col-md-2">
+          <span><img src="assets/mid_logo.png" height="150px" width="120px"/></span>
+              <br><br>
+              <div class="row mx-5">
+                <div class="col-md-3">
+                  <img height="25px" src="assets/twitter.png" alt="twitter_logo">
+                </div>
+                <div class="col-md-3">
+                  <img  height="25px" src="assets/instagram.png" alt="instagram_logo">
+                </div>
+                <div class="col-md-3">
+                  <img  height="25px" src="assets/linkedin.png" alt="linked_logo">
+                </div>
+                <br><br>
+                <div style="align-items: center; font-size: 12px; color: #525252;" class="row align-items-lg-center">
+                  © 2021 Hike Pvt Ltd
+                </div>
+              </div>
+          
+        </div>
+        <div class="col-12 col-md-3 py-3 text-white">
+          <h5 style="font-size: 14px;">WORK AT HIKE</h5><br>
+          <h5 style="font-size: 12px;">Our Culture</h5><br>
+          <h5 style="font-size: 12px;">Job Openings</h5>
+        </div>
+        <div class="col-12 col-md-3 py-3 text-white">
+          <h5 style="font-size: 14px;"> Product & Design</h5><br>
+          <h5 style="font-size: 12px;">Tech</h5><br>
+          <h5 style="font-size: 12px;">AI & ML</h5>   <br>  
+          <h5 style="font-size: 12px;">People & Culture</h5>                                     
+                                              
+
+        </div>
+        <div class="col-12 col-md-3 py-3 text-white">
+      
+          <h5 style="font-size: 14px;"> POLICIES</h5><br>
+          <h5 style="font-size: 12px;">Terms</h5><br>
+          <h5 style="font-size: 12px;">Privacy</h5>   <br>  
+          <h5 style="font-size: 12px;">Community Guidelines</h5>        
+        </div>
+        <div class="col-12 col-md-3text-white">
+
+        </div>
+
+      </div>
+  </div>
+</footer>
+
+
+
 </body>
-
-
-
-
-
-
 </html>
