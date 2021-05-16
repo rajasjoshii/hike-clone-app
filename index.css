@@ -4,21 +4,6 @@
   color: black;
 }
 
-.object {
-  animation: MoveUpDown 1s linear infinite;
-  position: absolute;
-}
-
-@keyframes MoveUpDown {
-  0%,
-  100% {
-    bottom: 0;
-  }
-  50% {
-    bottom: 5px;
-  }
-}
-
 .nav-txt:link {
   color: black;
   background-color: transparent;
